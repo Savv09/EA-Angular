@@ -6,6 +6,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BlackbarComponent } from './components/blackbar/blackbar.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavElementComponent } from './components/nav-element/nav-element.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavbarComponent,
     BlackbarComponent,
     HomepageComponent,
+    NavElementComponent,
   ],
   imports: [BrowserModule, NgbModule],
   providers: [],
