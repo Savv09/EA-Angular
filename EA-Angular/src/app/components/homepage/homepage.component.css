@@ -1,5 +1,5 @@
 .homepage {
-  background-image: url("../../assets/f22-hero-med-futfantasy-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");
+  background-image: url("../../../assets/f22-hero-med-futfantasy-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");
   background-size: contain;
   height: 57vh;
   width: 100vw;
@@ -12,7 +12,7 @@
 }
 
 .bluebar {
-  background-image: url("../../assets/ea-publisher-sales-product-conversion-bg-xl.jpg.adapt.1920w.jpg");
+  background-image: url("../../../assets/ea-publisher-sales-product-conversion-bg-xl.jpg.adapt.1920w.jpg");
   height: 15vh;
   background-size: cover;
 }

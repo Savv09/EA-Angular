@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { BlackbarComponent } from './blackbar/blackbar.component';
-import { HomepageComponent } from './homepage/homepage.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { BlackbarComponent } from './components/blackbar/blackbar.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -12,13 +12,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     NavbarComponent,
     BlackbarComponent,
-    HomepageComponent
+    HomepageComponent,
   ],
-  imports: [
-    BrowserModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
