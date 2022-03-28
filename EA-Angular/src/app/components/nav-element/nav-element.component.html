@@ -1,8 +1,8 @@
 <div class="d-flex justify-content-center flex-row">
   <div *ngFor="let element of elements" class="mx-3 singleButton">
     <ng-template #popTitle>
-      <div *ngFor="let elements of element.subtitle; index as i">
-        {{ element.subtitle }}
+      <div *ngFor="let subtitle of element.subtitle; index as i">
+        {{ subtitle }}
       </div></ng-template
     >
     <ng-template class="navElement" #popComponent>

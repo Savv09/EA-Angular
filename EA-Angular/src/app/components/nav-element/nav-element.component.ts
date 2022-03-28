@@ -9,6 +9,8 @@ import { InavElement } from 'src/models/navelement';
   styles: [
     `
       .custom-class {
+        display: flex;
+        flex-direction: column;
       }
     `,
   ],
