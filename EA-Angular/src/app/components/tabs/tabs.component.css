@@ -1,0 +1,23 @@
+.tab:hover{
+    background-color: #dbdbdb;
+}
+
+.break{
+    height: 1px;
+    width: 100vw;
+}
+.tab:active{
+    border-bottom: red;
+    border-style: solid;
+}
+.btn {
+    outline-color: red;
+  }
+.btn:active {
+    outline-color: red;
+  }
+
+  .tab{
+      border-right: 1px solid rgb(184, 184, 184);
+  }
+  

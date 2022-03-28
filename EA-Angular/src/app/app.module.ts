@@ -8,6 +8,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavElementComponent } from './components/nav-element/nav-element.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CardsComponent } from './components/cards/cards.component';
     HomepageComponent,
     NavElementComponent,
     CardsComponent,
+    TabsComponent,
   ],
   imports: [BrowserModule, NgbModule],
   providers: [],

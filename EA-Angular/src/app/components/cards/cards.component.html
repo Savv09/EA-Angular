@@ -1,15 +1,26 @@
-<div *ngFor="let card of cards">
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="{{ card.imgUrl }}" alt="Card image cap">
-        
+<div class="d-flex justify-content-center align-items-center flex-wrap">
+  <div
+    id="card-container"
+    class="d-flex justify-content-around align-items-center flex-wrap"
+  >
+    <div *ngFor="let card of cards">
+      <div class="card my-3" style="width: 18rem">
+        <img
+          class="card-img-top"
+          src="{{ card.imgUrl }}"
+          alt="Card image cap"
+        />
+
         <div class="d-flex justify-content-around">
-            <p class="text-danger font-weight-bold">{{ card.logoInc }}</p>
-            <p>{{ card.data | date: "dd-MMM-yyyy" }}</p>
+          <p class="text-danger font-weight-bold">{{ card.logoInc }}</p>
+          <p>{{ card.data | date: "dd-MMM-yyyy" }}</p>
         </div>
-        
+
         <div class="card-body">
           <h5 class="card-title">{{ card.title }}</h5>
           <p class="card-text">{{ card.text }}</p>
         </div>
+      </div>
     </div>
+  </div>
 </div>
