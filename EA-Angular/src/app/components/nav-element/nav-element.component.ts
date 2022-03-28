@@ -27,7 +27,6 @@ export class NavElementComponent implements OnInit {
         'SPORTS',
         'Giochi gratuiti',
         'Libreria dei giochi',
-        'PIATTAFORME',
       ],
     },
     {

@@ -2,9 +2,12 @@
   <div *ngFor="let element of elements" class="mx-3 singleButton">
     <ng-template #popTitle>
       <div *ngFor="let subtitle of element.subtitle; index as i">
-        {{ subtitle }}
-      </div></ng-template
-    >
+        <div class="">
+          {{ subtitle }}
+        </div>
+      </div>
+    </ng-template>
+    
     <ng-template class="navElement" #popComponent>
       <div *ngFor="let elements of element.element; index as i">
         <a href=""> {{ element.element[i] }}</a>
@@ -15,7 +18,7 @@
       type="button"
       class="btn"
       [ngbPopover]="popComponent"
-      triggers="mouseenter:mouseleave"
+      triggers="mouseenter:mouseclick"
       [popoverTitle]="popTitle"
       popoverClass="custom-class"
     >
