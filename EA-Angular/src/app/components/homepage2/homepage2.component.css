@@ -1,5 +1,5 @@
 .homepage {
-  background-image: url("../../../assets/f22-hero-med-futfantasy-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");
+  background-image: url("../../../assets/Ea-gamepass-img.jpeg");
   background-size: contain;
   height: 57vh;
   width: 100vw;
@@ -12,14 +12,14 @@
 }
 
 .bluebar {
-  background-image: url("../../../assets/ea-publisher-sales-product-conversion-bg-xl.jpg.adapt.1920w.jpg");
-  width: 100vw;
+  background-color: #6eb0d7;
   height: 15vh;
   background-size: cover;
+  width: 100vw;
 }
 
 .bluebar p {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bolder;
   font-size: 1.5em;
   margin: 0;

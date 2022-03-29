@@ -9,6 +9,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavElementComponent } from './components/nav-element/nav-element.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { Homepage2Component } from './components/homepage2/homepage2.component';
+import { FooterContainerComponent } from './components/footer/footer-container/footer-container.component';
+import { FooterOneComponent } from './components/footer/footer-one/footer-one.component';
+import { FooterTwoComponent } from './components/footer/footer-two/footer-two.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +23,10 @@ import { TabsComponent } from './components/tabs/tabs.component';
     NavElementComponent,
     CardsComponent,
     TabsComponent,
+    Homepage2Component,
+    FooterContainerComponent,
+    FooterOneComponent,
+    FooterTwoComponent,
   ],
   imports: [BrowserModule, NgbModule],
   providers: [],
