@@ -1,0 +1,26 @@
+.homepage {
+  background-image: url("../../../assets/Ea-gamepass-img.jpeg");
+  background-size: contain;
+  height: 57vh;
+  width: 100vw;
+}
+
+.fantasy {
+  color: white;
+  width: 30%;
+  margin-left: 12.5vw;
+}
+
+.bluebar {
+  background-color: rgb(75, 199, 199);
+  height: 15vh;
+  background-size: cover;
+}
+
+.bluebar p {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}

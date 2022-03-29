@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavElementComponent } from './components/nav-element/nav-element.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { Homepage2Component } from './components/homepage2/homepage2.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { TabsComponent } from './components/tabs/tabs.component';
     NavElementComponent,
     CardsComponent,
     TabsComponent,
+    Homepage2Component,
   ],
   imports: [BrowserModule, NgbModule],
   providers: [],
