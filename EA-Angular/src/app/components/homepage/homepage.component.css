@@ -13,6 +13,7 @@
 
 .bluebar {
   background-image: url("../../../assets/ea-publisher-sales-product-conversion-bg-xl.jpg.adapt.1920w.jpg");
+  width: 100vw;
   height: 15vh;
   background-size: cover;
 }

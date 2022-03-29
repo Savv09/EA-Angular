@@ -15,6 +15,7 @@
   background-color: rgb(75, 199, 199);
   height: 15vh;
   background-size: cover;
+  width: 100vw;
 }
 
 .bluebar p {
