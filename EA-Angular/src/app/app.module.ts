@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BlackbarComponent } from './components/blackbar/blackbar.component';
@@ -11,6 +10,10 @@ import { CardsComponent } from './components/cards/cards.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { Homepage2Component } from './components/homepage2/homepage2.component';
 import { GamesComponent } from './components/games/games.component';
+import { FooterContainerComponent } from './components/footer/footer-container/footer-container.component';
+import { FooterOneComponent } from './components/footer/footer-one/footer-one.component';
+import { FooterTwoComponent } from './components/footer/footer-two/footer-two.component';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +26,10 @@ import { GamesComponent } from './components/games/games.component';
     TabsComponent,
     Homepage2Component,
     GamesComponent,
+    FooterContainerComponent,
+    FooterOneComponent,
+    FooterTwoComponent,
+
   ],
   imports: [BrowserModule, NgbModule],
   providers: [],

@@ -1,0 +1,37 @@
+#footer-one-container {
+  width: 100vw;
+  height: 30vh;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.links {
+  width: 60%;
+
+}
+
+.links ul li {
+  display: inline-block;
+  margin-right: 35px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#icona {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icons p {
+  align-self: flex-end
+}
