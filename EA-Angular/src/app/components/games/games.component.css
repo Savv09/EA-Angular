@@ -1,4 +1,5 @@
 /*CARD GIOCHI*/
+
 .titolo-giochi {
   text-align: center;
   font-size: 40px;
@@ -36,16 +37,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .card-giochi-testo {
   opacity: 0;
   margin: 0;
 }
-
-
 
 .card-giochi-gradient {
   display: flex;
@@ -60,20 +57,19 @@
 }
 
 .card-giochi-gradient:hover {
-  background: linear-gradient(90deg,
-      rgba(58, 62, 129, 1) 0%,
-      rgba(230, 122, 125, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 62, 129, 1) 0%,
+    rgba(230, 122, 125, 1) 100%
+  );
   width: 330px;
   height: 330px;
   opacity: 0.9;
   /*position: absolute;*/
 }
 
-
-
 #card-giochi-primo {
   background-image: url("../../../assets/battlefield-img.jpg");
-
 }
 
 #card-giochi-primo:hover {
@@ -119,8 +115,6 @@
 
 #card-giochi-sesto:hover {
   background-image: url("../../../assets/sims4.jpg");
-
-
 }
 
 .card-giochi:hover img {
@@ -137,9 +131,7 @@
   transform: translateY(-50px);
   align-items: center;
   justify-content: center;
-
 }
-
 
 .primary {
   margin-top: 30px;
