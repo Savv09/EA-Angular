@@ -5,3 +5,19 @@
   justify-content: center;
   flex-direction: row;
 }
+
+.container-card {
+  width: 50%;
+  margin: auto;
+}
+
+#card {
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+#card:hover {
+  transition: 0.5s;
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 15px rgba(136, 136, 136, 0.707);
+}
