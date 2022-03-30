@@ -13,6 +13,8 @@ import { GamesComponent } from './components/games/games.component';
 import { FooterContainerComponent } from './components/footer/footer-container/footer-container.component';
 import { FooterOneComponent } from './components/footer/footer-one/footer-one.component';
 import { FooterTwoComponent } from './components/footer/footer-two/footer-two.component';
+import { PrimaryButtonComponent } from './components/buttons/primary-button/primary-button.component';
+import { AlternativeButtonComponent } from './components/buttons/alternative-button/alternative-button.component';
 
 
 @NgModule({
@@ -29,6 +31,8 @@ import { FooterTwoComponent } from './components/footer/footer-two/footer-two.co
     FooterContainerComponent,
     FooterOneComponent,
     FooterTwoComponent,
+    PrimaryButtonComponent,
+    AlternativeButtonComponent,
 
   ],
   imports: [BrowserModule, NgbModule],
