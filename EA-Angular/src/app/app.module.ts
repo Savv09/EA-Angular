@@ -10,6 +10,7 @@ import { NavElementComponent } from './components/nav-element/nav-element.compon
 import { CardsComponent } from './components/cards/cards.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { Homepage2Component } from './components/homepage2/homepage2.component';
+import { GamesComponent } from './components/games/games.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { Homepage2Component } from './components/homepage2/homepage2.component';
     CardsComponent,
     TabsComponent,
     Homepage2Component,
+    GamesComponent,
   ],
   imports: [BrowserModule, NgbModule],
   providers: [],
