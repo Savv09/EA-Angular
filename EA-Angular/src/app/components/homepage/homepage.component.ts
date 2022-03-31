@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { IButtons } from 'src/models/buttons';
 
 @Component({
   selector: 'app-homepage',
@@ -6,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
+
+ button: IButtons={
+   text: "Sfoglia offerte"
+
+ }
+ buttontwo: IButtons={
+  text: "Gioca ora"
+
+}
 
   constructor() { }
 

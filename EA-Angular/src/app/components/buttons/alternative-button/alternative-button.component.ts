@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { IButtons } from 'src/models/buttons';
 
 @Component({
@@ -7,9 +7,8 @@ import { IButtons } from 'src/models/buttons';
   styleUrls: ['./alternative-button.component.css']
 })
 export class AlternativeButtonComponent implements OnInit {
-  alternativeButton: IButtons = {
-    text:["Sfoglia offerte", "Iscriviti subito"]
-  }
+@Input()  buttonAlternative!: IButtons
+
   constructor() { }
 
   ngOnInit(): void {

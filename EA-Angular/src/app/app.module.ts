@@ -15,6 +15,7 @@ import { FooterOneComponent } from './components/footer/footer-one/footer-one.co
 import { FooterTwoComponent } from './components/footer/footer-two/footer-two.component';
 import { PrimaryButtonComponent } from './components/buttons/primary-button/primary-button.component';
 import { AlternativeButtonComponent } from './components/buttons/alternative-button/alternative-button.component';
+import { OrangeButtonComponent } from './components/buttons/orange-button/orange-button.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { AlternativeButtonComponent } from './components/buttons/alternative-but
     FooterTwoComponent,
     PrimaryButtonComponent,
     AlternativeButtonComponent,
+    OrangeButtonComponent,
 
   ],
   imports: [BrowserModule, NgbModule],
