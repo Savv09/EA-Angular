@@ -1,11 +1,31 @@
 <div class="container-blackbar">
-  <div class="icon-user icon">
-    <img src="../../assets/user_icon.png" alt="">
+  <div
+    class="icon-user icon"
+    (click)="collapse.toggle()"
+    [attr.aria-expanded]="!isCollapsed"
+    aria-controls="collapseExample"
+  >
+    <img src="../../assets/user_icon.png" alt="" />
   </div>
-  <div class="icon-question icon">
-    <img src="../../assets/question_mark_icon.png" alt="">
+  <div
+    class="icon-question icon"
+    (click)="collapse1.toggle()"
+    [attr.aria-expanded]="!isCollapsed1"
+    aria-controls="collapseExample"
+  >
+    <img src="../../assets/question_mark_icon.png" alt="" />
   </div>
   <div class="icon-ealogo icon">
-    <img src="../../assets/electronics-arts.png" alt="">
+    <img src="../../assets/electronics-arts.png" alt="" />
   </div>
+</div>
+<div class="collapseone" #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+  You can collapse this card by clicking Toggle
+</div>
+<div
+  class="collapsetwo"
+  #collapse1="ngbCollapse"
+  [(ngbCollapse)]="isCollapsed1"
+>
+  You can collapse this card by clicking Toggle
 </div>
