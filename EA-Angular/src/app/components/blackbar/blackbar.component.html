@@ -19,13 +19,27 @@
     <img src="../../assets/electronics-arts.png" alt="" />
   </div>
 </div>
-<div class="collapseone" #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
-  You can collapse this card by clicking Toggle
+
+<div
+  class="collapseone"
+  #collapse="ngbCollapse"
+  [(ngbCollapse)]="isCollapsed"
+>
+  <div id="iconContainer">
+    <div id="blackbar-icon">
+      <img src="../../../assets/eaglobalnav-iconsignin.png" alt="login" height="35px" width="35px">
+      <p>Accedi</p>
+    </div>
+
+    <div id="blackbar-icon">
+      <img src="../../../assets/eaglobalnav-iconregister.png" alt="register" height="35px" width="35px">
+      <p>Crea account</p>
+    </div>
+  </div>
 </div>
+
 <div
   class="collapsetwo"
   #collapse1="ngbCollapse"
   [(ngbCollapse)]="isCollapsed1"
->
-  You can collapse this card by clicking Toggle
-</div>
+></div>

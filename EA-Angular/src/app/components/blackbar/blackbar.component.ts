@@ -9,6 +9,8 @@ export class BlackbarComponent implements OnInit {
   public isCollapsed = true;
   public isCollapsed1 = true;
 
+  
+
   constructor() {}
 
   ngOnInit(): void {}
