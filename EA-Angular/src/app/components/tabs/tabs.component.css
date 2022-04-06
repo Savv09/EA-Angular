@@ -10,12 +10,14 @@
   height: 1px;
   width: 100vw;
 }
-.tab:active {
+.tab:focus {
   border-bottom: red;
   border-style: solid;
+  border-radius: 0%;
 }
 .btn {
   outline-color: red;
+  border-radius: 0%;
 }
 .btn:active {
   outline-color: red;
