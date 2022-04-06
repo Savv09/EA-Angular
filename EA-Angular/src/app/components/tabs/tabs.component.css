@@ -11,16 +11,16 @@
   width: 100vw;
 }
 .tab:focus {
-  border-bottom: red;
+  border-bottom: #ff4747;
   border-style: solid;
   border-radius: 0%;
 }
 .btn {
-  outline-color: red;
+  outline-color: #ff4747;
   border-radius: 0%;
 }
 .btn:active {
-  outline-color: red;
+  outline-color: #ff4747;
 }
 
 .tab {
