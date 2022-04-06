@@ -1,16 +1,17 @@
 <div>
   <h2 class="font-weight-bold text-center">Ultime novità</h2>
   <div class="d-flex flex-row justify-content-center">
-    <div class="d-flex flex-row align-items-center" *ngFor="let tab of tabs; index as i">
-        
-        <button type="button" class="btn tab ">{{tabs[i]}}</button>
+    <div class="btn-group" role="group">
+      <div
+        class="d-flex flex-row align-items-center"
+        *ngFor="let tab of tabs; index as i"
+      >
+        <button type="button" class="btn tab" role="button">
+          {{ tabs[i] }}
+        </button>
+      </div>
     </div>
-
-</div>  
-<div class="border-bottom break">
-
+  </div>
+  <div class="border-bottom break"></div>
+  <app-cards></app-cards>
 </div>
-<app-cards></app-cards>
-</div>
-
-
