@@ -33,9 +33,9 @@
   cursor: pointer;
 }
 
-.collapseone {
+.collapse-menu {
   background-color: #161616;
-  height: 45vh;
+  height: 40vh;
   width: 100vw;
   position: absolute;
   display: flex;
@@ -43,21 +43,25 @@
   justify-content: center;
 }
 
-.collapsetwo {
-  background-color: #161616;
-  height: 45vh;
-  width: 100vw;
-  position: absolute;
+.collapse-menu h5 {
+  font-size: 16px;
+  margin-bottom: 1.5vh;
 }
 
 #iconContainer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 30vw;
-  color: white;
+  color: #f3f3f3;
   font-size: 16px;
   font-weight: lighter;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  color: #f3f3f3;
 }
 
 #blackbar-icon {
@@ -65,4 +69,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 0.4s;
+}
+
+#blackbar-icon:hover {
+  transform: translateY(-4px);
+  transition: 0.1s;
+}
+
+.bottom {
+  margin-top: 2vh;
+  font-size: 15px;
+}
+
+.bottom a {
+  color: #b61a2f;
 }
