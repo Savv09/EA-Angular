@@ -88,3 +88,41 @@
   height: 8vh;
   margin-left: 2vw;
 }
+
+
+
+@media screen and (max-width: 767.98px) {
+  .scd-ftr-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    white-space: nowrap;
+  }
+
+  .scd-ftr-nav img {
+    margin-left: 0;
+  }
+
+  .ftr-select {
+    width: 90vw;
+  }
+
+  #language {
+    width: 70vw;
+    height: 8vh;
+    margin-left: 2vw;
+    margin-top: 5%;
+  }
+
+  .scd-ftr-links {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .scd-ftr-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    white-space: normal
+  }
+}
