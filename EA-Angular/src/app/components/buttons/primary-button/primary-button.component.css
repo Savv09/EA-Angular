@@ -1,17 +1,24 @@
 .btn {
-    height: 3.438rem;
-    width: 9.688rem;
-    background: inherit;
-    border: solid 2px;
-    border-radius: 3px;
-    font-size: 18px;
-    transition: 0.3s;
-    font-display: center;
-    white-space: nowrap;
+  height: 3.438rem;
+  width: 9.688rem;
+  background: inherit;
+  border: solid 2px;
+  border-radius: 3px;
+  font-size: 18px;
+  transition: 0.3s;
+  font-display: center;
+  white-space: nowrap;
 }
 
 .btn:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-    font-size: inherit;
+  transform: scale(1.1);
+  transition: 0.3s;
+  font-size: inherit;
+
+}
+
+@media screen and (max-width: 575.98px) {
+  .btn {
+    width: 90vw;
+  }
 }
