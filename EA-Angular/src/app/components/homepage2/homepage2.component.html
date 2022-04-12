@@ -1,14 +1,24 @@
 <div class="homepage d-flex flex-column justify-content-center">
   <div class="fantasy">
-    <img src="../../../assets/logosecondario.png.png" alt="" width="250px" height="90px" />
+    <img
+      class="logo-secondario"
+      src="../../../assets/logosecondario.png.png"
+      alt=""
+      width="250px"
+      height="90px"
+    />
     <p>
-      Non limitarti al gioco. Gioca al massimo. Sblocca ricompense esclusive, contenuti per i soli membri e una libreria
-      dei migliori titoli.
+      Non limitarti al gioco. Gioca al massimo. Sblocca ricompense esclusive,
+      contenuti per i soli membri e una libreria dei migliori titoli.
     </p>
-    <app-alternative-button [buttonAlternative]="button"></app-alternative-button>
+    <app-alternative-button
+      [buttonAlternative]="button"
+    ></app-alternative-button>
   </div>
 </div>
-<div class="bluebar d-flex justify-content-around align-items-center">
-  <p>Genitori: il controllo dei videogiochi è nelle vostre mani.</p>
-  <app-primary-button [buttonPrimary]="buttonPrimary"></app-primary-button>
+<div class="bluebar d-flex align-items-center justify-content-center">
+  <div class="bluebar-child d-flex justify-content-around align-items-center">
+    <p>Genitori: il controllo dei videogiochi è nelle vostre mani.</p>
+    <app-primary-button [buttonPrimary]="buttonPrimary"></app-primary-button>
+  </div>
 </div>
