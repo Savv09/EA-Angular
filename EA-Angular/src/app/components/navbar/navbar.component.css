@@ -3,16 +3,22 @@
 }
 
 .ciccio {
-    width: 50vw;
-    height: 7vh;
-};
+  width: 50vw;
+  height: 7vh;
+}
 
-.dropdown:hover>.dropdown-menu {
-    display: block;
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+@media screen and (max-width: 767.98px) {
+  .logo {
+    height: 20%;
+    width: 20%;
   }
-  
-  .dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-      pointer-events: none;
-  }
-  
+}
