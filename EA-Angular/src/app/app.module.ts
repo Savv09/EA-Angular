@@ -16,7 +16,8 @@ import { FooterTwoComponent } from './components/footer/footer-two/footer-two.co
 import { PrimaryButtonComponent } from './components/buttons/primary-button/primary-button.component';
 import { AlternativeButtonComponent } from './components/buttons/alternative-button/alternative-button.component';
 import { OrangeButtonComponent } from './components/buttons/orange-button/orange-button.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -35,9 +36,9 @@ import { OrangeButtonComponent } from './components/buttons/orange-button/orange
     PrimaryButtonComponent,
     AlternativeButtonComponent,
     OrangeButtonComponent,
-
+    SidebarComponent,
   ],
-  imports: [BrowserModule, NgbModule],
+  imports: [BrowserModule, NgbModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
