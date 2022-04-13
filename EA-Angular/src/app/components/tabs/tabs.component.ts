@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from "@angular/core";
+import { tabStrings } from "src/app/Objects/tabs";
 
 
 @Component({
@@ -11,17 +12,7 @@ export class TabsComponent implements OnInit {
     this.widgetsContent = widgetsContent;
   }
 
-  tabs: string[] = [
-    'Notizie EA',
-    'EA Play',
-    'Madden NFL',
-    'Apex Legends',
-    'FIFA',
-    'Battlefield',
-    'The Sims 4',
-    'F1 2021',
-    'Inside EA',
-  ];
+  tabs = tabStrings
 
   @ViewChild('widgetsContent', { read: ElementRef }) public widgetsContent: ElementRef<any>;
 

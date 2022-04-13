@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Iicons } from 'src/models/icons';
+import { iconsList } from 'src/app/Objects/icons';
+
 
 @Component({
   selector: 'app-footer-one',
@@ -7,26 +8,7 @@ import { Iicons } from 'src/models/icons';
   styleUrls: ['./footer-one.component.css']
 })
 export class FooterOneComponent implements OnInit {
- icons: Iicons[]= 
- [
-  {
-    iconUrl:   "../../../assets/fb_icon.png"
-  },
-  {
-    iconUrl:  "../../../assets/twitter_icon_bold.png"
-  },
-  {
-    iconUrl:  "../../../assets/yt_icon.png"
-  },
-  {
-    iconUrl:  "../../../assets/ig_icon.png"
-  },
-  {
-    iconUrl:  "../../../assets/twitch_icon.png"
-  }
-  
-
- ]
+ icons = iconsList
  
   constructor() { }
 
