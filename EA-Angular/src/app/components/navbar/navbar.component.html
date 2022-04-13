@@ -1,9 +1,14 @@
-<app-sidebar></app-sidebar>
-<div id="nav" class="d-flex align-items-center">
-  <div class="aling-items-center px-3">
-    <img src="./assets/more_icon.png" alt="menu" class="menuicon" />
-  </div>
+<input type="checkbox" id="expand-toggle" hidden>
 
+
+
+<div  id="nav" class="d-flex align-items-center">
+  <label for="expand-toggle" id="expander" class="aling-items-center px-3">
+    <img src="./assets/more_icon.png" alt="menu" class="menuicon" />
+  </label>
+  <div class="expandable">
+    <app-sidebar></app-sidebar>
+  </div>
   <div class="aling-items-center px-3">
     <img
       src="./assets/logoNavbar.png"
