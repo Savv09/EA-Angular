@@ -25,4 +25,14 @@
 
 .tab {
   border-right: 1px solid rgb(184, 184, 184);
+  width: auto;
+}
+
+
+.middle {
+  float: left;
+  width: auto;
+  overflow: auto;
+  /*will change this to hidden later to deny scolling to user*/
+  white-space: nowrap;
 }
