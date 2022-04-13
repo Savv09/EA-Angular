@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from "@angular/core";
+
 
 @Component({
   selector: 'app-tabs',
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tabs.component.css'],
 })
 export class TabsComponent implements OnInit {
-  constructor() {}
+  constructor(widgetsContent: ElementRef<any>) {
+    this.widgetsContent = widgetsContent;
+  }
 
   tabs: string[] = [
     'Notizie EA',
@@ -19,6 +22,16 @@ export class TabsComponent implements OnInit {
     'F1 2021',
     'Inside EA',
   ];
+
+  @ViewChild('widgetsContent', { read: ElementRef }) public widgetsContent: ElementRef<any>;
+
+  public scrollRight(): void {
+    this.widgetsContent.nativeElement.scrollTo({ left: (this.widgetsContent.nativeElement.scrollLeft + 150), behavior: 'smooth' });
+  }
+
+  public scrollLeft(): void {
+    this.widgetsContent.nativeElement.scrollTo({ left: (this.widgetsContent.nativeElement.scrollLeft - 150), behavior: 'smooth' });
+  }
 
   ngOnInit(): void {}
 }
