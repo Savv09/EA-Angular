@@ -1,0 +1,68 @@
+.homepage {
+  background-image: url("../../../assets/f22-hero-med-futfantasy-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");
+  background-size: cover;
+  height: 57vh;
+  width: 100vw;
+}
+
+.fantasy {
+  color: white;
+  width: 30%;
+  margin-left: 12.5vw;
+}
+.img-m {
+  display: none;
+}
+.bluebar {
+  background-image: url("../../../assets/ea-publisher-sales-product-conversion-bg-xl.jpg.adapt.1920w.jpg");
+  width: 100vw;
+  height: 15vh;
+  background-size: cover;
+}
+
+.bluebar p {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767.98px) {
+  .img-l {
+    display: none;
+  }
+  .fantasy p {
+    font-size: 10px;
+  }
+  .img-m {
+    display: block;
+  }
+  .homepage {
+    background-image: url("../../../assets/resizef22-hero-med-futfantasy-7x2-xl.jpg.adapt.crop7x2.1920w");
+    background-size: cover;
+    height: 57vh;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .homepage {
+    background-size: cover;
+    height: 57vh;
+    width: 100vw;
+  }
+  .smartphone-visual {
+    background-color: rgba(255, 112, 112, 0.764);
+  }
+  .heroFut {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .smartTest {
+    text-align: justify;
+    color: white;
+  }
+}

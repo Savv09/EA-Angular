@@ -1,0 +1,24 @@
+<div id="footer-one-container">
+  <div class="links">
+    <ul>
+      <li><a>Rapporto sull'impatto</a></li>
+      <li><a>Dirigenza</a></li>
+      <li><a>Sicurezza e privacy</a></li>
+      <li><a>Attività politiche</a></li>
+      <li><a>Segnala un problema</a></li>
+      <li><a>Dichiarazione globale sul rispetto dei diritti umani</a></li>
+
+    </ul>
+
+  </div>
+  <hr>
+  <div class="icons">
+    <p><b>Partecipa alla conversazione</b></p>
+
+    <div id="icona">
+      <div *ngFor="let icon of icons">
+        <p><img src="{{icon.iconUrl}}" alt=""></p>
+      </div>
+    </div>
+  </div>
+</div>

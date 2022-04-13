@@ -1,0 +1,76 @@
+.homepage {
+  background-image: url("../../../assets/Ea-gamepass-img.jpeg");
+  background-size: cover;
+  height: 57vh;
+  width: 100vw;
+}
+
+.homepage p {
+  width: 50vw;
+}
+
+.fantasy {
+  color: white;
+  width: 30%;
+  margin-left: 12.5vw;
+}
+
+.bluebar {
+  background-color: #6eb0d7;
+  height: 15vh;
+  background-size: cover;
+  width: 100vw;
+}
+
+.bluebar-child {
+  width: 80%;
+}
+
+.bluebar-child p {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767.98px) {
+  .bluebar {
+    flex-direction: column;
+    font-size: small;
+    height: 20vh;
+  }
+  .bluebar-child {
+    text-align: center;
+    flex-direction: column;
+  }
+  .logo-secondario {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+  }
+  .homepage p {
+    width: 70vw;
+    text-align: start;
+  }
+  .fantasy {
+    text-align: center;
+    margin-right: 30vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .logo-secondario {
+    width: 300px;
+    height: 100px;
+  }
+}
