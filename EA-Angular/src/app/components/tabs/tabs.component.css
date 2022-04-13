@@ -3,7 +3,7 @@
 }
 
 .tab:hover {
-  background-color: #dbdbdb;
+  background: #dbdbdb;
 }
 
 .break {
@@ -30,9 +30,34 @@
 
 
 .middle {
+  position: relative;
+  bottom: 5px;
   float: left;
   width: auto;
-  overflow: auto;
+  height: 40px;
+  overflow: scroll;
   /*will change this to hidden later to deny scolling to user*/
   white-space: nowrap;
+}
+
+.l-btn,
+.r-btn{
+  display: none;
+  border: none;
+}
+
+@media screen and (max-width: 830px){
+  .l-btn,
+  .r-btn{
+    display: block;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 575.98px){
+  .l-btn,
+  .r-btn{
+    display: block;
+    border: none;
+  }
 }
