@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,8 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
   constructor() { }
+
+  expandSidebar() {
+   const expandable = document.getElementById('expandable');
+
+   if (expandable?.style.visibility === 'collapse') {
+    expandable.style.visibility = 'visible';
+   }
+
+
+  }
 
   ngOnInit(): void {
   }

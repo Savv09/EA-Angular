@@ -27,3 +27,12 @@
     height: 30px;
   }
 }
+
+.expandable {
+  transform: translateX(-30vw);
+  transition: 0.3s;
+}
+
+#expand-toggle:checked ~ * .expandable {
+  transform: translateX(-4.5vw);
+}
