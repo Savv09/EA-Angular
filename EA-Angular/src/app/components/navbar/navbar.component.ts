@@ -10,6 +10,7 @@ export class NavbarComponent implements OnInit {
   toggle() {
     this.opened= !this.opened;
   };
+  giochi = cardGiochi;
  constructor() { }
 
 

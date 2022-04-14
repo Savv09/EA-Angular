@@ -7,13 +7,6 @@ import { cardGiochi } from 'src/app/Objects/giochi';
 })
 export class SidebarComponent implements OnInit {
   constructor() {}
-  opened= false;
-
- toggle() {
-  this.opened= !this.opened;
-}
-
-
-  giochi = cardGiochi;
+ 
   ngOnInit(): void {}
 }
