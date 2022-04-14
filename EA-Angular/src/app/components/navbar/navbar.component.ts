@@ -6,11 +6,7 @@ import { cardGiochi } from 'src/app/Objects/giochi';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  opened= false;
-  toggle() {
-    this.opened= !this.opened;
-  };
-  giochi = cardGiochi;
+
  constructor() { }
 
 

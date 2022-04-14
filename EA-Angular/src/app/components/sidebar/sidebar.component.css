@@ -1,6 +1,8 @@
 ng-sidebar-container {
   height: 100vh;
   position: absolute;
+  top: 0;
+  pointer-events: none;
 }
 
 .sidebar {
@@ -8,13 +10,12 @@ ng-sidebar-container {
   width: 25vw;
   background-color: rgb(235, 231, 231);
   position: fixed;
-
 }
 
 .side-logo {
   width: 15vw;
   background-image: url("../../../assets/ea-play-16x9-png.adapt.crop1x1.767w_");
-  height: 15vh;
+  height: 30vh;
   background-size: cover;
 }
 
@@ -29,4 +30,9 @@ ng-sidebar-container {
 
 .container-gioco {
   margin: 1vw;
+}
+
+.open-menu {
+  cursor: pointer;
+  margin-left: 0.8vw;
 }
