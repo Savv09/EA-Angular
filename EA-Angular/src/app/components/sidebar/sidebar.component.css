@@ -1,20 +1,27 @@
+ng-sidebar-container {
+  height: 100vh;
+  position: absolute;
+}
+
 .sidebar {
   height: 100vh;
   width: 25vw;
-  background-color: white;
+  background-color: rgb(235, 231, 231);
   position: fixed;
+
 }
 
 .side-logo {
-  width: 20vw;
+  width: 15vw;
   background-image: url("../../../assets/ea-play-16x9-png.adapt.crop1x1.767w_");
-  height: 20vh;
+  height: 15vh;
   background-size: cover;
 }
 
 .side-logo:hover .ea-side {
   transform: scale(1.1);
 }
+
 .ea-side {
   width: 6vw;
   height: 5vh;
