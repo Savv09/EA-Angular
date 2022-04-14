@@ -18,6 +18,7 @@ import { AlternativeButtonComponent } from './components/buttons/alternative-but
 import { OrangeButtonComponent } from './components/buttons/orange-button/orange-button.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import {SidebarModule} from "ng-sidebar";
 
 @NgModule({
   declarations: [
@@ -36,9 +37,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     PrimaryButtonComponent,
     AlternativeButtonComponent,
     OrangeButtonComponent,
-    SidebarComponent,
+    SidebarComponent
   ],
-  imports: [BrowserModule, NgbModule, BrowserAnimationsModule],
+  imports: [BrowserModule, NgbModule, BrowserAnimationsModule, SidebarModule],
   providers: [],
   bootstrap: [AppComponent],
 })
