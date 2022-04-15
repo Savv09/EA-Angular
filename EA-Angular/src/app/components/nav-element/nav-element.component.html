@@ -7,9 +7,12 @@
         </div>
       </div>
     </ng-template>
-    
+
     <ng-template class="navElement" #popComponent>
-      <div *ngFor="let elements of element.element; index as i">
+      <div
+        class="d-flex align-items-center text-center"
+        *ngFor="let elements of element.element; index as i"
+      >
         <a href=""> {{ element.element[i] }}</a>
       </div>
     </ng-template>

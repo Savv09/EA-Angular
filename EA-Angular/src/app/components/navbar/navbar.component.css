@@ -7,13 +7,20 @@
   height: 7vh;
 }
 
-.dropdown:hover>.dropdown-menu {
+.dropdown:hover > .dropdown-menu {
   display: block;
 }
 
-.dropdown>.dropdown-toggle:active {
+.dropdown > .dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
   pointer-events: none;
+}
+
+.elements {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -34,6 +41,6 @@
   transition: 0.3s;
 }
 
-#expand-toggle:checked~* .expandable {
+#expand-toggle:checked ~ * .expandable {
   transform: translateX(-4.5vw);
 }

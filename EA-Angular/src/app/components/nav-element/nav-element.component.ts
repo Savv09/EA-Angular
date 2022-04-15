@@ -18,14 +18,11 @@ import { InavElement } from 'src/models/navelement';
   ],
 })
 export class NavElementComponent implements OnInit {
-  elements: InavElement[]= [];
+  elements: InavElement[] = [];
 
-
-  constructor(private getNavElement: GetNavElementService) {
-    
-  }
+  constructor(private getNavElement: GetNavElementService) {}
 
   ngOnInit(): void {
-    this.elements= this.getNavElement.getNavbar()
+    this.elements = this.getNavElement.getNavbar();
   }
 }
