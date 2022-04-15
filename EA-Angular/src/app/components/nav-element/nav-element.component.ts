@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { GetNavElementService } from 'src/app/Objects/get-nav-element.service';
 import { NavElements } from 'src/app/Objects/nav-elements';
 import { InavElement } from 'src/models/navelement';
 
@@ -17,9 +18,14 @@ import { InavElement } from 'src/models/navelement';
   ],
 })
 export class NavElementComponent implements OnInit {
-  elements = NavElements;
+  elements: InavElement[]= [];
 
-  constructor() {}
 
-  ngOnInit(): void {}
+  constructor(private getNavElement: GetNavElementService) {
+    
+  }
+
+  ngOnInit(): void {
+    this.elements= this.getNavElement.getNavbar()
+  }
 }
