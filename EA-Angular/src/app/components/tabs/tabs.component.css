@@ -35,7 +35,7 @@
   float: left;
   width: auto;
   height: 40px;
-  overflow: scroll;
+
   /*will change this to hidden later to deny scolling to user*/
   white-space: nowrap;
 }
@@ -52,6 +52,10 @@
     display: block;
     border: none;
   }
+
+  .middle {
+    overflow-x: scroll;
+  }
 }
 
 @media screen and (max-width: 575.98px){
@@ -59,5 +63,9 @@
   .r-btn{
     display: block;
     border: none;
+  }
+
+  .middle {
+    overflow-x: scroll;
   }
 }
