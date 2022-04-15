@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { GetGameService } from 'src/app/Objects/get-game.service';
 import { cardGiochi } from 'src/app/Objects/giochi';
 
 @Component({
@@ -11,9 +12,11 @@ export class SidebarComponent implements OnInit {
   toggle() {
     this.opened = !this.opened;
   };
-  giochi = cardGiochi;
+  giochi : string[] = [];
 
-  constructor() {}
+  constructor(private gamesList: GetGameService) {}
  
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.giochi = this.gamesList.getGames()
+  }
 }
