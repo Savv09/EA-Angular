@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from "@angular/core";
-import { tabStrings } from "src/app/Objects/tabs";
-
+import { GetTabService } from "src/app/Objects/get-tab.service";
 
 @Component({
   selector: 'app-tabs',
@@ -8,11 +7,14 @@ import { tabStrings } from "src/app/Objects/tabs";
   styleUrls: ['./tabs.component.css'],
 })
 export class TabsComponent implements OnInit {
-  constructor(widgetsContent: ElementRef<any>) {
+
+
+
+  constructor(widgetsContent: ElementRef<any>, private getTabs: GetTabService) {
     this.widgetsContent = widgetsContent;
   }
 
-  tabs = tabStrings
+  tabs: string[] = [];
 
   @ViewChild('widgetsContent', { read: ElementRef }) public widgetsContent: ElementRef<any>;
 
@@ -24,5 +26,7 @@ export class TabsComponent implements OnInit {
     this.widgetsContent.nativeElement.scrollTo({ left: (this.widgetsContent.nativeElement.scrollLeft - 150), behavior: 'smooth' });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.tabs = this.getTabs.getTabs();
+  }
 }
