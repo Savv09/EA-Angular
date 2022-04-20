@@ -19,6 +19,9 @@ import { OrangeButtonComponent } from './components/buttons/orange-button/orange
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { SidebarModule } from 'ng-sidebar';
+import { TemplateContainerComponent } from './BaseTemplate/template-container/template-container.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -38,8 +41,10 @@ import { SidebarModule } from 'ng-sidebar';
     AlternativeButtonComponent,
     OrangeButtonComponent,
     SidebarComponent,
+    TemplateContainerComponent,
+    MainPageComponent,
   ],
-  imports: [BrowserModule, NgbModule, BrowserAnimationsModule, SidebarModule],
+  imports: [BrowserModule, NgbModule, BrowserAnimationsModule, SidebarModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
