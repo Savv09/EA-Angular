@@ -2,7 +2,7 @@
   background-image: url("../../../assets/f22-hero-med-futfantasy-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");
   background-size: cover;
   height: 57vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .fantasy {
@@ -15,7 +15,7 @@
 }
 .bluebar {
   background-image: url("../../../assets/ea-publisher-sales-product-conversion-bg-xl.jpg.adapt.1920w.jpg");
-  width: 100vw;
+  width: 100%;
   height: 15vh;
   background-size: cover;
 }

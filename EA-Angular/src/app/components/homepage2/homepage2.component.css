@@ -2,7 +2,7 @@
   background-image: url("../../../assets/Ea-gamepass-img.jpeg");
   background-size: cover;
   height: 57vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .homepage p {
@@ -19,7 +19,7 @@
   background-color: #6eb0d7;
   height: 15vh;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
 }
 
 .bluebar-child {

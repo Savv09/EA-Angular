@@ -1,16 +1,14 @@
 #footer-one-container {
-  width: 100vw;
+  width: 100%;
   height: 30vh;
   background-color: #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .links {
   width: 60%;
-
 }
 
 .links ul li {
@@ -26,7 +24,6 @@
   flex-direction: column;
 }
 
-
 #icona {
   display: flex;
   flex-direction: row;
@@ -34,7 +31,7 @@
 }
 
 .icons p {
-  align-self: flex-end
+  align-self: flex-end;
 }
 
 hr {
@@ -57,12 +54,8 @@ hr {
     display: flex;
     flex-direction: column;
     margin-left: 3%;
-    white-space: nowrap
+    white-space: nowrap;
   }
-
-
-
-
 }
 
 @media screen and (max-width: 575.98px) {
@@ -75,7 +68,6 @@ hr {
 
   .links {
     width: 95%;
-
   }
 
   hr {
@@ -92,5 +84,4 @@ hr {
     margin-left: 5%;
     white-space: nowrap;
   }
-
 }
