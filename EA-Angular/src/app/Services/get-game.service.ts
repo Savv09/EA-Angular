@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { cardGiochi } from './giochi';
+import { cardGiochi } from '../Objects/giochi';
+
 
 @Injectable({
   providedIn: 'root'
