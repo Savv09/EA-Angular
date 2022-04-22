@@ -28,7 +28,6 @@
   width: auto;
 }
 
-
 .middle {
   position: relative;
   bottom: 5px;
@@ -41,31 +40,31 @@
 }
 
 .l-btn,
-.r-btn{
+.r-btn {
   display: none;
   border: none;
 }
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 830px) {
   .l-btn,
-  .r-btn{
+  .r-btn {
     display: block;
     border: none;
   }
 
   .middle {
-    overflow-x: scroll;
+    overflow-x: hidden;
   }
 }
 
-@media screen and (max-width: 575.98px){
+@media screen and (max-width: 575.98px) {
   .l-btn,
-  .r-btn{
+  .r-btn {
     display: block;
     border: none;
   }
 
   .middle {
-    overflow-x: scroll;
+    overflow-x: hidden;
   }
 }
