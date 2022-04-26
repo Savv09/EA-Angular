@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { tabStrings } from './tabs';
+import { tabStrings } from '../Objects/tabs';
+
 @Injectable({
   providedIn: 'root'
 })

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { cardsList } from 'src/app/Objects/cards';
-import { GetCardsService } from 'src/app/Objects/get-cards.service';
+import { GetCardsService } from 'src/app/Services/get-cards.service';
+
 import { ICard } from 'src/models/cards';
 
 @Component({
