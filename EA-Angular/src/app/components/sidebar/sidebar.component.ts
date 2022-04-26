@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { GetGameService } from 'src/app/Objects/get-game.service';
+
 import { cardGiochi } from 'src/app/Objects/giochi';
+import { GetGameService } from 'src/app/Services/get-game.service';
 
 @Component({
   selector: 'app-sidebar',

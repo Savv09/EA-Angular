@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef } from "@angular/core";
-import { GetTabService } from "src/app/Objects/get-tab.service";
+import { GetTabService } from "src/app/Services/get-tab.service";
+
 
 @Component({
   selector: 'app-tabs',

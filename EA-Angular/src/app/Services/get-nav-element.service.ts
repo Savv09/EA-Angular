@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { NavElements } from './nav-elements';
+import { NavElements } from '../Objects/nav-elements';
+
 @Injectable({
   providedIn: 'root'
 })

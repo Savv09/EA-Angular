@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { GetNavElementService } from 'src/app/Objects/get-nav-element.service';
+
 import { NavElements } from 'src/app/Objects/nav-elements';
+import { GetNavElementService } from 'src/app/Services/get-nav-element.service';
 import { InavElement } from 'src/models/navelement';
 
 @Component({
