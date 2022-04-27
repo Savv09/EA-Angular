@@ -2,6 +2,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 import { cardGiochi } from 'src/app/Objects/giochi';
 import { GetGameService } from 'src/app/Services/get-game.service';
+import { HomepageComponent } from '../homepage/homepage.component';
 
 @Component({
   selector: 'app-sidebar',
@@ -12,12 +13,12 @@ export class SidebarComponent implements OnInit {
   opened = false;
   toggle() {
     this.opened = !this.opened;
-  };
-  giochi : string[] = [];
+  }
+  giochi: string[] = [];
 
   constructor(private gamesList: GetGameService) {}
- 
+
   ngOnInit(): void {
-    this.giochi = this.gamesList.getGames()
+    this.giochi = this.gamesList.getGames();
   }
 }
