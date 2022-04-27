@@ -1,55 +1,95 @@
-
-.sign-in-box{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(28,35,51);
-    color: white;
+.sign-in-box {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(28, 35, 51);
+  color: white;
 }
-.header-sign-in{
-    width: 32%;
-}
-
-.pips{
-    text-align: center;
+.header-sign-in {
+  width: 500px;
 }
 
-.icon{
-    width: 50px;
-    height: 50px;
-    border-radius: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.pips {
+  text-align: center;
 }
 
-.container-icon{
-    width: 25%;
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fb{
-    background: rgba(27,118,244,255);
+.container-icon {
+  width: 25%;
 }
 
-.steam{
-    background: black;
+.fb {
+  background: rgba(27, 118, 244, 255);
 }
 
-.apple{
-    background: white;
+.steam {
+  background: black;
 }
 
-.play-station{
-    background: rgba(0,73,159,255);
+.apple {
+  background: white;
 }
 
-.xbox{
-    background: rgba(16,124,15,255);
+.play-station {
+  background: rgba(0, 73, 159, 255);
 }
 
-hr{
-    width: 160px;
-    height: 1px;
-
+.xbox {
+  background: rgba(16, 124, 15, 255);
 }
 
+hr {
+  width: 230px;
+  height: 1px;
+}
+
+.form {
+  width: 500px;
+}
+
+.select {
+  width: 100%;
+}
+
+select {
+  background-color: rgba(20, 24, 36, 255);
+  height: 50px;
+  margin: 10px;
+  border: 2px solid rgba(77, 80, 95, 255);
+  color: rgba(77, 80, 95, 255);
+  border-radius: 10px 10px 10px 10px;
+  width: 100%;
+}
+select:focus {
+  color: white;
+  border: white;
+}
+label {
+  margin-left: 10px;
+}
+.month {
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.day-year {
+  width: 25%;
+}
+
+button {
+  width: 500px;
+  align-self: center;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
