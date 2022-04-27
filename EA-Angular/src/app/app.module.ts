@@ -22,6 +22,8 @@ import { SidebarModule } from 'ng-sidebar';
 import { TemplateContainerComponent } from './BaseTemplate/template-container/template-container.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MainPageComponent } from './main-page/main-page.component';
+import { SignInComponent } from './components/sign-in/sign-in.component';
+import { LogInComponent } from './components/log-in/log-in.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { MainPageComponent } from './main-page/main-page.component';
     SidebarComponent,
     TemplateContainerComponent,
     MainPageComponent,
+    SignInComponent,
+    LogInComponent,
   ],
   imports: [BrowserModule, NgbModule, BrowserAnimationsModule, SidebarModule, AppRoutingModule],
   providers: [],

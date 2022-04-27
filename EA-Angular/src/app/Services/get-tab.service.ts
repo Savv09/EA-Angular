@@ -1,13 +1,12 @@
 import { Injectable } from '@angular/core';
 import { tabStrings } from '../Objects/tabs';
 
-
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class GetTabService {
   getTabs() {
     return tabStrings;
   }
-  constructor() { }
+  constructor() {}
 }
