@@ -1,15 +1,19 @@
 ng-sidebar-container {
   height: 100vh;
   position: absolute;
-  top: 0;
+  top: 6%;
   pointer-events: none;
 }
 
 .sidebar {
   height: 100vh;
-  width: 25vw;
+  width: 23vw;
   background-color: rgb(235, 231, 231);
   position: fixed;
+}
+
+.sidebar-container {
+  width: 300px;
 }
 
 .side-logo {
@@ -24,8 +28,8 @@ ng-sidebar-container {
 }
 
 .ea-side {
-  width: 6vw;
-  height: 5vh;
+  width: 100px;
+  height: 90px;
 }
 
 .container-gioco {
