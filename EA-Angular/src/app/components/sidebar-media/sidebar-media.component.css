@@ -6,9 +6,10 @@ ng-sidebar-container {
 }
 
 .sidebar {
-  width: 23vw;
-  background-color: rgb(235, 231, 231);
+  width: 50vw;
+  background-color: rgb(255, 255, 255);
   position: fixed;
+  height: 100%;
 }
 
 .sidebar-container {
@@ -38,4 +39,35 @@ ng-sidebar-container {
 .open-menu {
   cursor: pointer;
   margin-left: 0.8vw;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+  border-radius: 100%;
+  height: 35px;
+}
+
+hr {
+  width: 90%;
+  color: #000;
+}
+
+.sidebar-body {
+  background-color: #fff;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.sideHead {
+  height: 5px;
+  margin-bottom: 20px;
+}
+
+.menu-element:hover {
+  cursor: pointer;
+  color: #ff4747;
 }

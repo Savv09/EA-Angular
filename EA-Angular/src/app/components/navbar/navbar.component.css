@@ -7,11 +7,11 @@
   height: 7vh;
 }
 
-.dropdown:hover > .dropdown-menu {
+.dropdown:hover>.dropdown-menu {
   display: block;
 }
 
-.dropdown > .dropdown-toggle:active {
+.dropdown>.dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
   pointer-events: none;
 }
@@ -21,6 +21,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#sidebar-media {
+  display: none;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -34,6 +38,14 @@
     width: 30px;
     height: 30px;
   }
+
+  #sidebar {
+    display: none;
+  }
+
+  #sidebar-media {
+    display: block;
+  }
 }
 
 .expandable {
@@ -41,6 +53,6 @@
   transition: 0.3s;
 }
 
-#expand-toggle:checked ~ * .expandable {
+#expand-toggle:checked~* .expandable {
   transform: translateX(-4.5vw);
 }

@@ -24,6 +24,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MainPageComponent } from './main-page/main-page.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { LogInComponent } from './components/log-in/log-in.component';
+import { SidebarMediaComponent } from './components/sidebar-media/sidebar-media.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { LogInComponent } from './components/log-in/log-in.component';
     MainPageComponent,
     SignInComponent,
     LogInComponent,
+    SidebarMediaComponent,
   ],
   imports: [BrowserModule, NgbModule, BrowserAnimationsModule, SidebarModule, AppRoutingModule],
   providers: [],
