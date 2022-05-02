@@ -15,13 +15,25 @@
             <button (click)="toggle()" class="btn">X</button>
           </div>
         </div>
+
         <div
           class="sidebar-body d-flex flex-column justify-content-center mt-5"
         >
           <div *ngFor="let element of elements">
             <div class="menu-element">
-              <p class="mx-2">{{ element.title }}</p>
-              <hr class="mx-2" />
+              <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+                <ngb-panel title="{{ element.title }}">
+                  <ng-template ngbPanelContent>
+                    <ul>
+                      <div *ngFor="let object of element.element; index as i">
+                        <li>{{ object }}</li>
+                      </div>
+                    </ul>
+                  </ng-template>
+                  <p class="mx-2"></p>
+                  <hr class="mx-2" />
+                </ngb-panel>
+              </ngb-accordion>
             </div>
           </div>
         </div>
