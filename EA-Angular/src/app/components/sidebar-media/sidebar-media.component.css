@@ -67,7 +67,17 @@ hr {
   margin-bottom: 20px;
 }
 
-.menu-element:hover {
+li:hover {
   cursor: pointer;
   color: #ff4747;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+#title {
+  background-color: rgb(158, 34, 34);
+
 }
