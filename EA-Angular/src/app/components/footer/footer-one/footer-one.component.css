@@ -1,5 +1,5 @@
 #footer-one-container {
-  width: 100%;
+  width: 100vw;
   height: 30vh;
   background-color: #eaeaea;
   display: flex;
@@ -22,6 +22,13 @@
   width: 18%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #icona {
@@ -49,6 +56,9 @@ hr {
     width: 90%;
   }
 
+  p {
+    justify-content: flex-start;
+  }
   .icons {
     width: 30%;
     display: flex;
@@ -61,13 +71,21 @@ hr {
 @media screen and (max-width: 575.98px) {
   #footer-one-container {
     flex-direction: column;
-    align-items: start;
-
-    height: 50vh;
+    align-items: flex-start;
+    justify-content: center;
+    height: 60vh;
   }
 
   .links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
     width: 95%;
+  }
+
+  a {
+    white-space: normal;
+    word-break: break-all;
   }
 
   hr {
@@ -79,9 +97,10 @@ hr {
 
   .icons {
     width: 40%;
-    display: flex;
-    flex-direction: column;
+    display: block;
+
     margin-left: 5%;
     white-space: nowrap;
+    margin-top: 3%;
   }
 }
