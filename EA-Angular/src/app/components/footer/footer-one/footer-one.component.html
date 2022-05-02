@@ -7,17 +7,14 @@
       <li><a>Attività politiche</a></li>
       <li><a>Segnala un problema</a></li>
       <li><a>Dichiarazione globale sul rispetto dei diritti umani</a></li>
-
     </ul>
-
   </div>
-  <hr>
+  <hr />
   <div class="icons">
     <p><b>Partecipa alla conversazione</b></p>
-
-    <div id="icona">
-      <div *ngFor="let icon of icons">
-        <p><img src="{{icon.iconUrl}}" alt=""></p>
+    <div class="icon-container">
+      <div id="icona" *ngFor="let icon of icons">
+        <p><img src="{{ icon.iconUrl }}" alt="" /></p>
       </div>
     </div>
   </div>
