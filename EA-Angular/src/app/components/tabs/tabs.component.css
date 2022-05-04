@@ -1,0 +1,74 @@
+* {
+  background-color: #f3f3f3;
+}
+
+#t-con{
+  height:100vh
+}
+
+.tab:hover {
+  background: #dbdbdb;
+}
+
+.break {
+  height: 5px;
+  width: 100vw;
+}
+.tab:focus {
+  border-bottom: #ff4747;
+  border-style: solid;
+  border-radius: 0%;
+}
+.btn {
+  outline-color: #ff4747;
+  border-radius: 0%;
+}
+.btn:active {
+  outline-color: #ff4747;
+}
+
+.tab {
+  border-right: 1px solid rgb(184, 184, 184);
+  width: auto;
+}
+
+.middle {
+  position: relative;
+  bottom: 5px;
+  float: left;
+  width: auto;
+  height: 40px;
+
+  /*will change this to hidden later to deny scolling to user*/
+  white-space: nowrap;
+}
+
+.l-btn,
+.r-btn {
+  display: none;
+  border: none;
+}
+
+@media screen and (max-width: 830px) {
+  .l-btn,
+  .r-btn {
+    display: block;
+    border: none;
+  }
+
+  .middle {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .l-btn,
+  .r-btn {
+    display: block;
+    border: none;
+  }
+
+  .middle {
+    overflow-x: hidden;
+  }
+}

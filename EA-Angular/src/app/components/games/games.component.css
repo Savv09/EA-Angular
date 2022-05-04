@@ -1,0 +1,155 @@
+/*CARD GIOCHI*/
+#g-container {
+  background-color: #f3f3f3;
+  margin:0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.titolo-giochi {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#all-games {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.card-giochi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-size: cover;
+  /* position: relative;*/
+  height: 330px;
+  width: 330px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 9px;
+}
+
+.card-giochi-elementi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-giochi-testo {
+  opacity: 0;
+  margin: 0;
+}
+
+.card-giochi-gradient {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  /* position: absolute;*/
+}
+
+.card-giochi-gradient:hover {
+  background: linear-gradient(90deg,
+      rgba(58, 62, 129, 1) 0%,
+      rgba(230, 122, 125, 1) 100%);
+  width: 330px;
+  height: 330px;
+  opacity: 0.9;
+  /*position: absolute;*/
+}
+
+#card-giochi-primo {
+  background-image: url("../../../assets/battlefield-img.jpg");
+}
+
+#card-giochi-primo:hover {
+  background-image: url("../../../assets/battlefield-img.jpg");
+  background-size: cover;
+}
+
+#card-giochi-secondo {
+  background-image: url("../../../assets/fifa22.jpg");
+}
+
+#card-giochi-secondo:hover {
+  background-image: url("../../../assets/fifa22.jpg");
+}
+
+#card-giochi-terzo {
+  background-image: url("../../../assets/ittakestwo.jpg");
+}
+
+#card-giochi-terzo:hover {
+  background-image: url("../../../assets/ittakestwo.jpg");
+}
+
+#card-giochi-quarto {
+  background-image: url("../../../assets/need.jpg");
+}
+
+#card-giochi-quarto:hover {
+  background-image: url("../../../assets/need.jpg");
+}
+
+#card-giochi-quinto {
+  background-image: url("../../../assets/apex1.jpg");
+}
+
+#card-giochi-quinto:hover {
+  background-image: url("../../../assets/apex1.jpg");
+}
+
+#card-giochi-sesto {
+  background-image: url("../../../assets/sims4.jpg");
+}
+
+#card-giochi-sesto:hover {
+  background-image: url("../../../assets/sims4.jpg");
+}
+
+.card-giochi:hover img {
+  transform: translateY(-60px);
+  transition: 0.5s;
+}
+
+.card-giochi:hover .card-giochi-testo {
+  opacity: 100%;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  transform: translateY(-50px);
+  align-items: center;
+  justify-content: center;
+}
+
+.primary {
+  margin-top: 30px;
+  align-items: center;
+}
+
+.fix-buttons {
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 45%;
+}
+
+@media screen and (max-width: 575.98px) {
+  .fix-buttons {
+    display: flex;
+    margin-left: 20%;
+  }
+}

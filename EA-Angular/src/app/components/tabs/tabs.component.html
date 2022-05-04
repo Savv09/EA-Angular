@@ -1,0 +1,27 @@
+<div id="t-con">
+  <h2 class="font-weight-bold text-center">Ultime novità</h2>
+  <div class="d-flex flex-row justify-content-center">
+    <div style="float: left">
+      <button class="l-btn" (click)="scrollLeft()">&#10094;</button>
+  </div>
+
+  <div #widgetsContent class="middle">
+    <div class="btn-group" role="group">
+      <div
+         class="d-flex flex-row align-items-center"
+         *ngFor="let tab of tabs; index as i"
+       >
+         <button type="button" class="btn tab" role="button">
+           {{ tabs[i] }}
+         </button>
+       </div>
+     </div>
+  </div>
+
+  <div style="float: right">
+      <button class="r-btn" (click)="scrollRight()">&#10095;</button>
+  </div>
+  </div>
+  <div class="border-bottom break"></div>
+  <app-cards></app-cards>
+</div>

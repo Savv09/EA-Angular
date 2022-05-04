@@ -1,0 +1,100 @@
+.sign-in-box {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(28, 35, 51);
+  color: white;
+}
+.header-sign-in {
+  width: 500px;
+}
+
+.pips {
+  text-align: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-icon {
+  width: 25%;
+}
+
+.fb {
+  background: rgba(27, 118, 244, 255);
+}
+
+.steam {
+  background: black;
+}
+
+.apple {
+  background: white;
+}
+
+.play-station {
+  background: rgba(0, 73, 159, 255);
+}
+
+.xbox {
+  background: rgba(16, 124, 15, 255);
+}
+
+hr {
+  width: 230px;
+  height: 1px;
+}
+
+.form {
+  width: 500px;
+}
+
+.select {
+  width: 100%;
+}
+
+select {
+  background-color: rgba(20, 24, 36, 255);
+  height: 50px;
+  margin: 10px;
+  border: 2px solid rgba(77, 80, 95, 255);
+  color: rgba(77, 80, 95, 255);
+  border-radius: 10px 10px 10px 10px;
+  width: 100%;
+}
+select:focus {
+  color: white;
+  border: white;
+}
+label {
+  margin-left: 10px;
+}
+.month {
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.day-year {
+  width: 25%;
+}
+
+button {
+  width: 500px;
+  align-self: center;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #4b7be4;
+}
+
+a:hover {
+  text-decoration: underline;
+}

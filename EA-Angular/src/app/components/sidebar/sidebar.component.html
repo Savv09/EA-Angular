@@ -1,0 +1,46 @@
+<div >
+  <ng-sidebar-container >
+    <ng-sidebar [opened]="opened" >
+      <div id="black">
+        <div
+        class="sidebar position-fixed d-flex align-items-center justify-content-center"
+      >
+        <div class="sidebar-container" >
+          <div
+            class="sideHead d-flex justify-content-between aling-items-center mt-5 mx-4"
+          >
+            <p>Tutti i giochi</p>
+            <button (click)="toggle(); BgDark.emit()" class="btn">X</button>
+          </div>
+          <div
+            class="sidebar-body d-flex align-items-center justify-content-center mt-5"
+          >
+            <div
+              class="side-logo d-flex align-items-center justify-content-center"
+            >
+              <img
+                class="ea-side"
+                src="../../../assets/ea-play-logo-sidebar.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="side-games d-flex justify-content-center flex-wrap align-items-center mt-5"
+          >
+            <div class="container-gioco" *ngFor="let gioco of giochi">
+              <img src="{{ gioco }}" alt="" height="100px" width="100px" />
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </ng-sidebar>
+  </ng-sidebar-container>
+  <img
+    class="open-menu"
+    src="../assets/more_icon.png"
+    alt=""
+    (click)="toggle(); BgDark.emit()"
+  />
+</div>

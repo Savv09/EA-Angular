@@ -1,0 +1,54 @@
+ng-sidebar-container {
+  height: 100vh;
+  position: fixed;
+  top: 4vh;
+  pointer-events: none;
+}
+
+#black {
+  background-color: rgba(0, 0, 0, 0.713);
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 23vw;
+  background-color: rgb(235, 231, 231);
+  position: fixed;
+  overflow: scroll;
+}
+
+.sidebar-container {
+  width: 300px;
+}
+
+.side-logo {
+  width: 15vw;
+  background-image: url("../../../assets/ea-play-16x9-png.adapt.crop1x1.767w_");
+  height: 30vh;
+  background-size: cover;
+}
+
+.side-logo:hover .ea-side {
+  transform: scale(1.1);
+}
+
+.ea-side {
+  width: 100px;
+  height: 90px;
+}
+
+.container-gioco {
+  margin: 1vw;
+}
+
+.open-menu {
+  cursor: pointer;
+  margin-left: 0.8vw;
+}
+
+.sideHead p{
+  font-size: 18px;
+  color: #aaaaaa;
+}
