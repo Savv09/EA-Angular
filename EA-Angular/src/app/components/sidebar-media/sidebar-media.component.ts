@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { GetNavElementService } from 'src/app/Services/get-nav-element.service';
 import { InavElement } from 'src/models/navelement';
+
 
 @Component({
   selector: 'app-sidebar-media',
@@ -9,7 +10,10 @@ import { InavElement } from 'src/models/navelement';
 })
 
 export class SidebarMediaComponent implements OnInit {
- elements: InavElement[]= []
+  @Input() changeBg: boolean = true;
+  @Output() BgDark = new EventEmitter<void>();
+  
+  elements: InavElement[]= []
   opened = false;
   toggle() {
     this.opened = !this.opened;

@@ -1,35 +1,37 @@
 <ng-sidebar-container>
   <ng-sidebar [opened]="opened">
-    <div class="sidebar position-fixed d-flex justify-content-center">
-      <div class="sidebar-container">
-        <div class="sideHead d-flex justify-content-between aling-items-center mt-4 mx-4">
-          <img src="../../../assets/logoNavbar.png" alt="" width="150px" height="30px" />
-          <div class="circle">
-            <button (click)="toggle()" class="btn">X</button>
+    <div id="black">
+      <div class="sidebar position-fixed d-flex justify-content-center">
+        <div class="sidebar-container">
+          <div class="sideHead d-flex justify-content-around aling-items-center pt-3">
+            <img src="../../../assets/logoNavbar.png" alt="" width="150px" height="30px" />
+            <div class="circle">
+              <button (click)="toggle(); BgDark.emit()" class="btn">X</button>
+            </div>
           </div>
-        </div>
-
-        <div class="sidebar-body d-flex flex-column justify-content-center mt-5">
-          <div *ngFor="let element of elements">
-            <div class="menu-element">
-              <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
-                <ngb-panel>
-                  <ng-template ngbPanelTitle>
-                    <div>{{ element.title }}</div>
-                  </ng-template>
-                  <hr>
-                  <ng-template ngbPanelContent>
-                    <ul>
-                      <div *ngFor="let object of element.element; index as i">
-                        <li>{{ object }}</li>
-                        <hr>
-                      </div>
-                    </ul>
-                  </ng-template>
-                  <p class="mx-2"></p>
-                  <hr class="mx-2" />
-                </ngb-panel>
-              </ngb-accordion>
+  
+          <div class="sidebar-body d-flex flex-column justify-content-center">
+            <div *ngFor="let element of elements">
+              <div class="menu-element">
+                <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+                  <ngb-panel>
+                    <ng-template ngbPanelTitle>
+                      <div>{{ element.title }}</div>
+                    </ng-template>
+                    <hr>
+                    <ng-template ngbPanelContent>
+                      <ul>
+                        <div *ngFor="let object of element.element; index as i">
+                          <li>{{ object }}</li>
+                          <hr>
+                        </div>
+                      </ul>
+                    </ng-template>
+                    <p class="mx-2"></p>
+                    <hr class="mx-2" />
+                  </ngb-panel>
+                </ngb-accordion>
+              </div>
             </div>
           </div>
         </div>
@@ -37,4 +39,4 @@
     </div>
   </ng-sidebar>
 </ng-sidebar-container>
-<img class="open-menu" src="../assets/icons8-menu-50.png" alt="" height="25px" (click)="toggle()" />
+<img class="open-menu" src="../assets/icons8-menu-50.png" alt="" height="25px" (click)="toggle(); BgDark.emit()" />

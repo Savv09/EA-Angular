@@ -18,8 +18,10 @@ export const NavElements: InavElement[] = [
       title: 'Altre Esperienze',
       element: [
         'EA',
-        'PlayOriginCompetizioni',
-        'videoludicheDiretta di EA Play',
+        'Play',
+        'Origin',
+        'Competizioni videoludiche',
+        'Diretta di EA Play',
       ],
     },
     {

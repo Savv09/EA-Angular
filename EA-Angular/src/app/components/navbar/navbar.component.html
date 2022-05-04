@@ -1,14 +1,19 @@
 <div id="nav" class="d-flex align-items-center">
-  <div id="sidebar">
-    <app-sidebar></app-sidebar>
+  <div id="sidebar" >
+    <app-sidebar [changeBg]="changeBg" (BgDark)="BgDark.emit()"></app-sidebar>
   </div>
   <div id="sidebar-media">
-    <app-sidebar-media></app-sidebar-media>
+    <app-sidebar-media [changeBg]="changeBg" (BgDark)="BgDark.emit()" ></app-sidebar-media>
   </div>
 
-
   <div class="d-flex aling-items-center px-3 elements">
-    <img src="./assets/logoNavbar.png" alt="menu" width="150px" height="30px" class="mbs-5" />
+    <img
+      src="./assets/logoNavbar.png"
+      alt="menu"
+      width="150px"
+      height="30px"
+      class="mbs-5"
+    />
   </div>
 
   <div class="d-flex justify-content-start ciccio align-items-center ms-5">

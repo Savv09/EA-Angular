@@ -1,14 +1,23 @@
 ng-sidebar-container {
   height: 100vh;
   position: fixed;
-  top: 6%;
+  top: 4vh;
   pointer-events: none;
+  
+}
+
+#black {
+  background-color: rgba(0, 0, 0, 0.713);
+  width: 100vw;
+  height: 100vh;
 }
 
 .sidebar {
+  height: 100vh;
   width: 23vw;
   background-color: rgb(235, 231, 231);
   position: fixed;
+  overflow: scroll;
 }
 
 .sidebar-container {
