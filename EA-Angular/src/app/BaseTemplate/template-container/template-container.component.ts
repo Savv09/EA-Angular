@@ -1,3 +1,4 @@
+import { NgStyle } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,7 +7,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./template-container.component.css'],
 })
 export class TemplateContainerComponent implements OnInit {
-  public changeBg: boolean = true;
+  public changeBg: boolean = false;
+  opacity: number = 1;
+
+  
+  Bgdark() {
+
+    console.log('ciao')
+    this.changeBg = !this.changeBg
+    if(!this.changeBg) {
+      this.opacity = 1
+    } else {
+      this.opacity = 0.5
+    }
+  }
+  
+
   constructor() {}
 
   ngOnInit(): void {}

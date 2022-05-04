@@ -11,9 +11,12 @@ import { HomepageComponent } from '../homepage/homepage.component';
 })
 export class SidebarComponent implements OnInit {
   @Input() changeBg: boolean = true;
+  @Output() BgDark = new EventEmitter<void>();
+
   opened = false;
   toggle() {
     this.opened = !this.opened;
+    
   }
   giochi: string[] = [];
 

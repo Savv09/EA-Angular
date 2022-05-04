@@ -1,6 +1,6 @@
 <div id="nav" class="d-flex align-items-center">
   <div id="sidebar">
-    <app-sidebar [changeBg]="changeBg"></app-sidebar>
+    <app-sidebar [changeBg]="changeBg" (BgDark)="BgDark.emit()"></app-sidebar>
   </div>
   <div id="sidebar-media">
     <app-sidebar-media></app-sidebar-media>
