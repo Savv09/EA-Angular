@@ -18,7 +18,7 @@ export class TemplateContainerComponent implements OnInit {
     this.changeBg = !this.changeBg
     if(!this.changeBg) {
       this.opacity = 1
-      this.position
+      this.position = "unset"
     } else {
       this.opacity = 0.5
       this.position = "fixed"

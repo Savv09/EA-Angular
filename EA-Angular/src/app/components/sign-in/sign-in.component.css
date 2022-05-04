@@ -92,4 +92,9 @@ button {
 
 a {
   text-decoration: none;
+  color: #4b7be4;
+}
+
+a:hover {
+  text-decoration: underline;
 }

@@ -3,7 +3,6 @@ ng-sidebar-container {
   position: fixed;
   top: 4vh;
   pointer-events: none;
-  
 }
 
 #black {
@@ -47,4 +46,9 @@ ng-sidebar-container {
 .open-menu {
   cursor: pointer;
   margin-left: 0.8vw;
+}
+
+.sideHead p{
+  font-size: 18px;
+  color: #aaaaaa;
 }
