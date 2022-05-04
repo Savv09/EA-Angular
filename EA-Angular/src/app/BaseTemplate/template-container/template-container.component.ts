@@ -3,13 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-template-container',
   templateUrl: './template-container.component.html',
-  styleUrls: ['./template-container.component.css']
+  styleUrls: ['./template-container.component.css'],
 })
 export class TemplateContainerComponent implements OnInit {
+  public changeBg: boolean = true;
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

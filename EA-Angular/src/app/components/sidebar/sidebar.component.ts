@@ -10,6 +10,7 @@ import { HomepageComponent } from '../homepage/homepage.component';
   styleUrls: ['./sidebar.component.css'],
 })
 export class SidebarComponent implements OnInit {
+  @Input() changeBg: boolean = true;
   opened = false;
   toggle() {
     this.opened = !this.opened;
