@@ -1,9 +1,14 @@
 /*CARD GIOCHI*/
+#g-container {
+  background-color: #f3f3f3;
+  margin:0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .titolo-giochi {
   text-align: center;
   font-size: 40px;
-  margin-top: 20px;
   margin-bottom: 15px;
 }
 
@@ -138,7 +143,6 @@
 
 .fix-buttons {
   margin-top: 30px;
-  margin-bottom: 30px;
   align-items: center;
   margin-left: 45%;
 }

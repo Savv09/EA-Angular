@@ -2,12 +2,16 @@
   background-color: #f3f3f3;
 }
 
+#t-con{
+  height:100vh
+}
+
 .tab:hover {
   background: #dbdbdb;
 }
 
 .break {
-  height: 1px;
+  height: 5px;
   width: 100vw;
 }
 .tab:focus {

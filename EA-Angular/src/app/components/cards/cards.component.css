@@ -8,6 +8,7 @@
   justify-content: center;
   flex-direction: row;
   width: 1200px;
+  padding-top: 40px;
 }
 
 #card {
@@ -33,3 +34,4 @@
     display: none;
   }
 }
+
