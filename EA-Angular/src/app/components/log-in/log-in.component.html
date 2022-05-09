@@ -33,14 +33,14 @@
         <div class="d-flex flex-column align-items-start">
           <label for="phone"> TELEFONO O E-MAIL</label>
           <div class="select d-flex justify-content-center">
-            <input id="phone" placeholder="Inserisci numero di telefono o e-mail">
+            <input id="phone" placeholder="Inserisci numero di telefono o e-mail" required>
           </div>
         </div>
 
         <div class="password my-2">
           <label for="password"> PASSWORD </label>
           <div class="select d-flex justify-content-center">
-            <input type="password" id="password" class="select" placeholder="Inserisci la password">
+            <input type="password" id="password" class="select" placeholder="Inserisci la password" required>
           </div>
           <div class="d-flex  align-items-center">
             <input type="checkbox" class="remember">
@@ -49,7 +49,10 @@
 
         </div>
         <div class="button">
-          <button class="btn btn-secondary btn-lg">ACCEDI</button>
+          <button 
+          type="submit" 
+          class="btn btn-secondary btn-lg"
+          >ACCEDI</button>
         </div>
       </form>
 
