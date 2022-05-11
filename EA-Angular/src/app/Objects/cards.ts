@@ -348,7 +348,7 @@ export const CardNovità: ITab[] = [
     tabtitle: 'F1 2021',
     card: [
       {
-        imgUrl: '../../assets/Battlefield-img-1.png',
+        imgUrl: '../../assets/f1-img-1.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
@@ -362,32 +362,28 @@ export const CardNovità: ITab[] = [
         text: 'Abbiamo deciso di rimuovere Russia e Bielorussia dai Paesi idonei ai nostri programmi di eSports. Uniti in solidarietà con il popolo ucraino.',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/f1-img-3.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
         text: 'Abbiamo deciso di rimuovere Russia e Bielorussia dai Paesi idonei ai nostri programmi di eSports. Uniti in solidarietà con il popolo ucraino.',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/f1-img-4.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
         text: 'Abbiamo deciso di rimuovere Russia e Bielorussia dai Paesi idonei ai nostri programmi di eSports. Uniti in solidarietà con il popolo ucraino.',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/f1-img-5.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
         text: 'Abbiamo deciso di rimuovere Russia e Bielorussia dai Paesi idonei ai nostri programmi di eSports. Uniti in solidarietà con il popolo ucraino.',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/f1-img-6.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
@@ -399,40 +395,35 @@ export const CardNovità: ITab[] = [
     tabtitle: 'Inside EA',
     card: [
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/inside-1.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
         text: 'Abbiamo deciso di rimuovere Russia e Bielorussia dai Paesi idonei ai nostri programmi di eSports. Uniti in solidarietà con il popolo ucraino.',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/inside-2.png',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
         text: 'Abbiamo deciso di rimuovere Russia e Bielorussia dai Paesi idonei ai nostri programmi di eSports. Uniti in solidarietà con il popolo ucraino.',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/inside-3.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
         text: 'Abbiamo deciso di rimuovere Russia e Bielorussia dai Paesi idonei ai nostri programmi di eSports. Uniti in solidarietà con il popolo ucraino.',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/inside-4.png',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
         text: 'Abbiamo deciso di rimuovere Russia e Bielorussia dai Paesi idonei ai nostri programmi di eSports. Uniti in solidarietà con il popolo ucraino.',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/inside-5.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Aggiornamento di EA eSports su Russia e Bielorussia',
