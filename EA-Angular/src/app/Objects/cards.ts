@@ -348,7 +348,7 @@ export const CardNovità: ITab[] = [
     tabtitle: 'F1 2021',
     card: [
       {
-        imgUrl: '../../assets/Battlefield-img-1.png',
+        imgUrl: '../../assets/f1-img-1.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Benvenuti a Miami - Sito ufficiale EA SPORTS',
@@ -362,32 +362,28 @@ export const CardNovità: ITab[] = [
         text: 'Entra in una nuova era con F1® 22. Scopri la data di uscita, le caratteristiche, i contenuti di prenotazione di F1® 22 e tanto altro!',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/f1-img-3.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'F1® 2021 - Pass Podio Serie 5',
         text: 'Sblocca oggetti gratuiti ispirati dai creatori Tiametmarduk e MaximeMXM nel livello gratuito del Pass Podio',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/f1-img-4.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'F1® 2021 - F1® 2021 su EA Play',
         text: 'Goditi le nuove straordinarie funzionalità di F1® 2021',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/f1-img-5.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'F1® 2021 - Note sulla patch 1.17',
         text: "Scopri di più sull'ultima patch",    
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
+        imgUrl: '../../assets/f1-img-6.jpg',
         logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'F1® 2021 - Note sulla patch 1.16',
@@ -399,41 +395,40 @@ export const CardNovità: ITab[] = [
     tabtitle: 'Inside EA',
     card: [
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
-        logoInc: 'Inside EA',
+
+        imgUrl: '../../assets/inside-1.jpg',
+        logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Vieni a costruire il futuro di The Sims a Maxis',
         text: 'La nostra ambizione: ispirare tutti a creare un mondo migliore attraverso il gioco creativo',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
-        logoInc: 'Inside EA',
+
+        imgUrl: '../../assets/inside-2.png',
+        logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title:"Lasciare un segno positivo all'interno e all'esterno dei nostri giochi",
         text: "Lasciare un segno positivo all'interno e all'esterno dei nostri giochi"
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
-        logoInc: 'Inside EA',
+        imgUrl: '../../assets/inside-3.jpg',
+        logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Firemonkeys Studio di EA festeggia i 10 anni di The Sims FreePlay',
         text:  'Tutto è cominciato realizzando The Sims per dispositivi mobili: da allora è diventato uno dei titoli preferiti della serie',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
-        logoInc: 'Inside EA',
+
+        imgUrl: '../../assets/inside-4.png',
+        logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: 'Dentro Full Circle - Melvin Teo, produttore di skate.',
         text: ' Scopri di più sullo studio Full Circle con Melvin Teo, produttore di skate.',
       },
       {
-        imgUrl:
-          '../../../assets/ea-tile-origin-experience-png-adapt-crop16x9-431p.png.adapt.crop16x9.431p.png',
-        logoInc: 'Inside EA',
+
+        imgUrl: '../../assets/inside-5.jpg',
+        logoInc: 'Electronic Arts Inc.',
         data: '2022-16-03',
         title: "ABLE festeggia il mese nazionale di sensibilizzazione sull'occupazione per …",
         text: "È il momento di educare sui problemi di handicap e celebrare i numerosi e variegati contributi dei lavoratori con disabilità ",
