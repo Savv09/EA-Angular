@@ -5,7 +5,7 @@
     id="card-container"
     class="d-flex justify-content-around align-items-center flex-wrap"
   >
-    <div *ngFor="let card of cards">
+    <div *ngFor="let card of cards.card">
       <div class="card my-3" style="width: 18rem" id="card">
         <img
           class="card-img-top"
@@ -17,7 +17,6 @@
           <p class="text-danger font-weight-bold">{{ card.logoInc }}</p>
           <p>{{ card.data | date: "dd-MMM-yyyy" }}</p>
         </div>
-
         <div class="card-body">
           <h5 class="card-title">{{ card.title }}</h5>
           <p class="card-text">{{ card.text }}</p>
