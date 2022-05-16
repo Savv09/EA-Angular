@@ -7,8 +7,8 @@ export const NavElements: InavElement[] = [
       subtitle: ['ESPLORA I GIOCHI', 'PIATTAFORME'],
       element: [
         'Ultimi giochi',
-        'ProssimamenteEA',
-        'SPORTS',
+        'Prossimamente',
+        'EA Sports',
         'Giochi gratuiti',
         'Libreria dei giochi',
       ],
