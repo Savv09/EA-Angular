@@ -44,10 +44,10 @@
     text-align: center;
     flex-direction: column;
   }
-  .logo-secondario {
+  /* .logo-secondario {
     width: 150px;
     height: 50px;
-  }
+  } */
 }
 
 @media screen and (max-width: 575.98px) {
@@ -56,11 +56,12 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 90vh;
+    height: 73vh;
   }
 
   .fantasy {
     width: 80%;
+    margin-left: 0;
   }
 
   .homepage p {
@@ -69,13 +70,23 @@
   }
   .fantasy {
     text-align: center;
-    margin-right: 30vw;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
   }
   .logo-secondario {
-    width: 100px;
-    height: 50px;
+    /* width: 100px;
+    height: 50px; */
+
+  }
+
+  .pLargo {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  .bottone {
+    margin-left: 0;
   }
 }

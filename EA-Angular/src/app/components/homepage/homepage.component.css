@@ -64,5 +64,6 @@
   .smartTest {
     text-align: justify;
     color: white;
+    margin-bottom: 0;
   }
 }

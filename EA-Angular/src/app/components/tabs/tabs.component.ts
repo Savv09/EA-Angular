@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { GetCardsService } from 'src/app/Services/get-cards.service';
 import { GetTabService } from 'src/app/Services/get-tab.service';
+import { IButtons } from 'src/models/buttons';
 import { ITab } from 'src/models/cards';
 
 @Component({
@@ -14,6 +15,11 @@ export class TabsComponent implements OnInit {
     private getCard: GetCardsService
   ) {
     this.widgetsContent = widgetsContent;
+  }
+
+  button: IButtons={
+    text: "Più dettagli"
+ 
   }
 
   tabs!: ITab[];
