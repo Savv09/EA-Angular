@@ -41,13 +41,11 @@
     height: 20vh;
   }
   .bluebar-child {
+    height: 50%;
     text-align: center;
     flex-direction: column;
+    justify-content: space-evenly;
   }
-  /* .logo-secondario {
-    width: 150px;
-    height: 50px;
-  } */
 }
 
 @media screen and (max-width: 575.98px) {
@@ -74,19 +72,27 @@
     justify-content: flex-start;
     flex-direction: column;
   }
-  .logo-secondario {
-    /* width: 100px;
-    height: 50px; */
 
+  img {
+    padding-left: 20px;
   }
 
   .pLargo {
     font-size: 20px;
     font-weight: 300;
     line-height: 25px;
+    padding-left: 20px;
   }
 
   .bottone {
     margin-left: 0;
+  }
+
+  .pMedia {
+    padding-bottom: 20px;
+  }
+
+  .bluebar-child {
+    height: 60%
   }
 }
