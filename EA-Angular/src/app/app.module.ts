@@ -25,6 +25,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { LogInComponent } from './components/log-in/log-in.component';
 import { SidebarMediaComponent } from './components/sidebar-media/sidebar-media.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,14 @@ import { SidebarMediaComponent } from './components/sidebar-media/sidebar-media.
     LogInComponent,
     SidebarMediaComponent,
   ],
-  imports: [BrowserModule, NgbModule, BrowserAnimationsModule, SidebarModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    NgbModule,
+    BrowserAnimationsModule,
+    SidebarModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
