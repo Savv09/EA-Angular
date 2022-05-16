@@ -17,8 +17,7 @@ export const NavElements: InavElement[] = [
       id: 2,
       title: 'Altre Esperienze',
       element: [
-        'EA',
-        'Play',
+        'EA Play',
         'Origin',
         'Competizioni videoludiche',
         'Diretta di EA Play',
