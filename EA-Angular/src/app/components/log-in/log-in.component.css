@@ -91,6 +91,9 @@ button {
 .btn {
   background-color: #235fe4;
 }
+.btn:disabled {
+  background-color: gray;
+}
 
 p a {
   text-decoration: none;

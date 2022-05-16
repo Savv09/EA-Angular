@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { cardsList } from 'src/app/Objects/cards';
+import { Component, Input, OnInit } from '@angular/core';
+import { CardNovità } from 'src/app/Objects/cards';
 import { GetCardsService } from 'src/app/Services/get-cards.service';
 
-import { ICard } from 'src/models/cards';
+import { ICard, ITab } from 'src/models/cards';
 
 @Component({
   selector: 'app-cards',
@@ -10,11 +10,11 @@ import { ICard } from 'src/models/cards';
   styleUrls: ['./cards.component.css'],
 })
 export class CardsComponent implements OnInit {
-  cards: ICard[] = [];
+  @Input() cards!: ITab;
 
   constructor(private cardsList: GetCardsService) {}
 
   ngOnInit(): void {
-    this.cards = this.cardsList.getCards();
+    // this.cards = this.cardsList.getCards();
   }
 }

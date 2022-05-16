@@ -95,6 +95,9 @@ a {
   color: #4b7be4;
 }
 
+button:disabled {
+  background-color: gray;
+}
 a:hover {
   text-decoration: underline;
 }

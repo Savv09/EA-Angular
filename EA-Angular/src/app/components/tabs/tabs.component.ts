@@ -1,6 +1,8 @@
-import { Component, OnInit, ViewChild, ElementRef } from "@angular/core";
-import { GetTabService } from "src/app/Services/get-tab.service";
-
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { GetCardsService } from 'src/app/Services/get-cards.service';
+import { GetTabService } from 'src/app/Services/get-tab.service';
+import { IButtons } from 'src/models/buttons';
+import { ITab } from 'src/models/cards';
 
 @Component({
   selector: 'app-tabs',
@@ -8,26 +10,45 @@ import { GetTabService } from "src/app/Services/get-tab.service";
   styleUrls: ['./tabs.component.css'],
 })
 export class TabsComponent implements OnInit {
-
-
-
-  constructor(widgetsContent: ElementRef<any>, private getTabs: GetTabService) {
+  constructor(
+    widgetsContent: ElementRef<any>,
+    private getCard: GetCardsService
+  ) {
     this.widgetsContent = widgetsContent;
   }
 
-  tabs: string[] = [];
+  button: IButtons={
+    text: "Più dettagli"
+ 
+  }
 
-  @ViewChild('widgetsContent', { read: ElementRef }) public widgetsContent: ElementRef<any>;
+  tabs!: ITab[];
+
+  @ViewChild('widgetsContent', { read: ElementRef })
+  public widgetsContent: ElementRef<any>;
+
+  selectedTab!: ITab;
+
+  getTab(tab: ITab) {
+    return (this.selectedTab = tab);
+  }
 
   public scrollRight(): void {
-    this.widgetsContent.nativeElement.scrollTo({ left: (this.widgetsContent.nativeElement.scrollLeft + 150), behavior: 'smooth' });
+    this.widgetsContent.nativeElement.scrollTo({
+      left: this.widgetsContent.nativeElement.scrollLeft + 150,
+      behavior: 'smooth',
+    });
   }
 
   public scrollLeft(): void {
-    this.widgetsContent.nativeElement.scrollTo({ left: (this.widgetsContent.nativeElement.scrollLeft - 150), behavior: 'smooth' });
+    this.widgetsContent.nativeElement.scrollTo({
+      left: this.widgetsContent.nativeElement.scrollLeft - 150,
+      behavior: 'smooth',
+    });
   }
 
   ngOnInit(): void {
-    this.tabs = this.getTabs.getTabs();
+    this.tabs = this.getCard.getCards();
+    this.selectedTab = this.tabs[0];
   }
 }
